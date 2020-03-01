@@ -41,7 +41,8 @@ end
 # This method takes in two parameters of two different arrays
 # and uses the .concat method to add the contents of the second
 # array to the first.
-def using_concat(a1, a2)
+def using_concat(arr1, arr2)
+  arr1.concat(arr2)
 
 # This method takes in two parameters, an Array and a new
 # element to be added to the array. it uses the .insert
