@@ -18,6 +18,9 @@ def using_shift(array)
   return array.shift()
 end
 
+# This method takes in an parameter of an Array and uses the
+# .shift method with an parameter of 2 to remove and return
+# the first 2 items from the array.
 def shift_with_args(array)
   return array.shift(2)
 end
