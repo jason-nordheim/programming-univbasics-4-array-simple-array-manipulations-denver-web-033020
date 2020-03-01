@@ -50,4 +50,4 @@ end
 # method to add the new element to the 4th index of the array.
 def using_insert(array, element)
   array.insert(4, element)
-end 
+end
