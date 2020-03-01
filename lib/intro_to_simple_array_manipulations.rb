@@ -14,6 +14,10 @@ def pop_with_args(array)
   return array.pop(2)
 end
 
+# This method takes in an parameter of an Array and uses
+# the .shift method to remove the first item and return it.
+
+
 def using_shift(array)
   return array.shift()
 end
