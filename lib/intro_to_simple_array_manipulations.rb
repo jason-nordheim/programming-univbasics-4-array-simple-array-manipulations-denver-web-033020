@@ -48,3 +48,6 @@ end
 # This method takes in two parameters, an Array and a new
 # element to be added to the array. it uses the .insert
 # method to add the new element to the 4th index of the array.
+def using_insert(array, element)
+  array.insert(4, element)
+end 
