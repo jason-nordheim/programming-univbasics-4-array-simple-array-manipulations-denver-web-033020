@@ -5,8 +5,6 @@ end
 # This method takes in two parameters, an Array and
 # a String and adds that string to the front of the
 # array using the .unshift method.
-
-
 def using_unshift(array, string)
   return array.unshift(string)
 end
