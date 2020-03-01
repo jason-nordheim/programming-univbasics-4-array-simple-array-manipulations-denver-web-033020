@@ -71,3 +71,7 @@ end
 def using_delete(array, string)
   return array.delete(string)
 end
+
+# This method takes in two parameters, an Array
+# and an Integer and deletes the element at the
+# index of the array that is equal to that integer.
