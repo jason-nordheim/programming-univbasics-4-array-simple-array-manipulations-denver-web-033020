@@ -63,4 +63,8 @@ end
 # method to return an array of strings.
 def using_flatten(array)
   return array.flatten()
-end 
+end
+
+# This method takes in two parameters, an Array and a String,
+# and uses the .delete method to remove any items from the
+# array that are equal to that string.
