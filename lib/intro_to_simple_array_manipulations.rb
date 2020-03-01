@@ -16,12 +16,12 @@ end
 
 def using_shift(array)
   return array.shift()
-end 
+end
 
 def shift_with_args(array)
-  return array.shift(2) 
-end 
+  return array.shift(2)
+end
 
-# This method takes in two parameters of two different arrays 
+# This method takes in two parameters of two different arrays
 # and uses the .concat method to add the contents of the second array to the first.
 def using_concat(a1, a2)
