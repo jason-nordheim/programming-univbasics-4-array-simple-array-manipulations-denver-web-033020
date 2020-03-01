@@ -42,7 +42,7 @@ end
 # and uses the .concat method to add the contents of the second
 # array to the first.
 def using_concat(arr1, arr2)
-  arr1.concat(arr2)
+  return arr1.concat(arr2)
 end
 
 # This method takes in two parameters, an Array and a new
@@ -55,5 +55,5 @@ end
 # This method takes in an parameter of an Array and
 # uses the .uniq method to remove any duplicate items.
 def using_uniq(array)
-  return array.uniq() 
-end 
+  return array.uniq()
+end
