@@ -69,5 +69,5 @@ end
 # and uses the .delete method to remove any items from the
 # array that are equal to that string.
 def using_delete(array, string)
-  array.delete(string)
-end 
+  return array.delete(string)
+end
