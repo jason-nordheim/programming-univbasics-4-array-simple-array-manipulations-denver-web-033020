@@ -43,8 +43,6 @@ end
 # array to the first.
 def using_concat(a1, a2)
 
-# This method takes in two parameters, an Array and a new 
+# This method takes in two parameters, an Array and a new
 # element to be added to the array. it uses the .insert
 # method to add the new element to the 4th index of the array.
-
-
