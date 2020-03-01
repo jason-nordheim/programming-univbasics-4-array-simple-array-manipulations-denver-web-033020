@@ -49,8 +49,11 @@ end
 # element to be added to the array. it uses the .insert
 # method to add the new element to the 4th index of the array.
 def using_insert(array, element)
-  array.insert(4, element)
+  return array.insert(4, element)
 end
 
 # This method takes in an parameter of an Array and
 # uses the .uniq method to remove any duplicate items.
+def using_uniq(array)
+  return array.uniq() 
+end 
