@@ -51,3 +51,6 @@ end
 def using_insert(array, element)
   array.insert(4, element)
 end
+
+# This method takes in an parameter of an Array and
+# uses the .uniq method to remove any duplicate items.
